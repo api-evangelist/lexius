@@ -1,0 +1,84 @@
+generated: '2026-07-19'
+method: probed
+source: https://www.lexius.ai/
+name: Lexius Well-Known Endpoints
+description: >-
+  Probe of standard /.well-known/ and root discovery endpoints on the Lexius web
+  host. NOTE: www.lexius.ai is a client-rendered single-page application that
+  serves its HTML shell with HTTP 200 for ANY path, including paths that do not
+  exist. Raw status codes are therefore meaningless here. Each candidate below
+  was validated by comparing its response body against the body returned for a
+  deliberately non-existent control path; identical bodies are soft 404s and are
+  NOT genuine artifacts. No well-known artifact was saved, because none is real.
+host: www.lexius.ai
+soft_404_detection:
+  control_path: /this-path-is-definitely-fake-12345
+  control_status: 200
+  control_content_type: text/html; charset=utf-8
+  control_body_bytes: 12219
+  note: >-
+    Any path returning an identical text/html body of the same length is the SPA
+    shell, not a published artifact.
+endpoints:
+- path: /.well-known/security.txt
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /.well-known/openid-configuration
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /.well-known/api-catalog
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /openapi.json
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /swagger.json
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /asyncapi.yaml
+  status: 200
+  genuine: false
+  reason: soft-404 (SPA shell, identical to control body)
+  file: null
+- path: /llms.txt
+  status: 200
+  genuine: true
+  reason: real text/plain llms.txt, 2226 bytes, distinct from control
+  file: ../llms/lexius-llms.txt
+- path: /robots.txt
+  status: 200
+  genuine: true
+  reason: real text/plain robots.txt (Cloudflare-managed content signals)
+  file: null
+- path: /sitemap.xml
+  status: 200
+  genuine: true
+  reason: real application/xml sitemap listing 6 marketing routes
+  file: null
+summary:
+  well_known_artifacts_found: 0
+  security_txt: false
+  openid_configuration: false
+  api_catalog: false
+  ai_plugin: false
+  llms_txt: true

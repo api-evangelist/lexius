@@ -1,0 +1,35 @@
+# Lexius
+
+> Lexius is a Y Combinator-backed AI-powered loss prevention platform that turns existing retail security cameras into proactive, revenue-protecting systems. It detects shoplifting in real-time, sends instant mobile alerts with video clips, and provides traceback search across all camera feeds.
+
+Lexius helps physical retail stores reduce shrinkage and protect revenue without replacing any hardware. The AI connects to existing security cameras and NVR/VMS systems from any brand, and is typically set up remotely in under 24 hours.
+
+## Key Features
+- Real-time shoplifting detection (concealment, product sweeping, known offender entry)
+- Instant mobile alerts with video clips
+- Traceback search: natural-language search across all cameras (e.g., "Man in blue jacket near electronics")
+- Automatic case file building for law enforcement
+- Chain-wide intelligence: known offenders flagged across all connected stores
+- Slip-and-fall detection for liability protection
+- Compatible with 11+ camera brands including Hikvision, Axis, Dahua, Hanwha, Bosch, Honeywell, Uniview, Lorex, LTS, Avigilon, and Genetec
+
+## Case Studies
+- [Erewhon Case Study](https://www.lexius.ai/case-study-erewhon): 58% reduction in shrinkage, 12x ROI
+- [Nisa Case Study](https://www.lexius.ai/case-study-nisa): 63% reduction in theft, 9x ROI, $2,350 prevented losses in first month
+
+## Pages
+- [Home](https://www.lexius.ai/): Landing page with product overview, features, case studies, and FAQ
+- [Shoplifting Detection](https://www.lexius.ai/shoplifting-detection): Detailed breakdown of how AI shoplifting detection works
+- [Erewhon Case Study](https://www.lexius.ai/case-study-erewhon): Premium grocery retailer case study
+- [Nisa Case Study](https://www.lexius.ai/case-study-nisa): Convenience store chain case study
+- [Request Access](https://www.lexius.ai/request-access): Contact form to get started with Lexius
+- [Privacy Policy](https://www.lexius.ai/privacy-policy): Privacy policy and data handling practices
+
+## Company
+- Website: https://www.lexius.ai
+- LinkedIn: https://www.linkedin.com/company/lexiusss
+- Backed by Y Combinator
+- Based in the United States
+
+## Contact
+- Request access: https://www.lexius.ai/request-access
