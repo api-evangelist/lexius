@@ -12,6 +12,17 @@ description: Lexius is a Y Combinator-backed AI loss-prevention platform that tu
   under 24 hours without replacing hardware. Lexius publishes no public developer
   API, SDK, or documentation surface as of this profile; it is delivered as a hosted
   dashboard plus camera/NVR integrations.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
