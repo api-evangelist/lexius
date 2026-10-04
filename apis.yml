@@ -50,7 +50,7 @@ tags:
 - Loss Prevention
 - Retail
 - Physical Security
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Theft Detection
 - Artificial Intelligence
@@ -65,6 +65,7 @@ tags_raw:
 - Theft Detection
 - Artificial Intelligence
 - Retail Technology
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
