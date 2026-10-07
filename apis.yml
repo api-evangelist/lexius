@@ -68,6 +68,8 @@ tags_raw:
 - Computer-Vision
 apis: []
 common:
+- type: Plans
+  url: plans/lexius-plans-pricing.yml
 - type: DomainSecurity
   url: security/lexius-domain-security.yml
 - type: Website
